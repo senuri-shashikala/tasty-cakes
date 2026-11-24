@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tasty Cakes Sri Lanka</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="#home">Tasty Cakes</a>
+  <nav>
+    <a href="#cakes">Our cakes</a>
+    <a href="#prices">Price list</a>
+    <a href="#order">How to order</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section id="home" class="hero">
+  <div class="hero-text">
+    <h1>A tastier way to choose your cake</h1>
+    <p class="sub">Same day delivery. Order before 4pm.</p>
+    <p>Cakes, brownies and bakery items made fresh in Sri Lanka. Browse by category, check the price and order in minutes.</p>
+    <a class="btn" href="#cakes">Browse cakes</a>
+  </div>
+  <img class="hero-img" src="image.png" alt="Birthday cake with strawberries">
+</section>
+
+<section id="cakes">
+  <h2>Our cakes</h2>
+  <div class="filters">
+    <button class="chip active" data-cat="all">All</button>
+    <button class="chip" data-cat="birthday">Birthday</button>
+    <button class="chip" data-cat="wedding">Wedding</button>
+    <button class="chip" data-cat="other">Brownies &amp; more</button>
+  </div>
+  <div class="grid" id="cakeGrid">
+    <article class="card" data-cat="birthday"><img src="imagecopy.png" alt="Birthday cake"><h3>Birthday Cake</h3><p>From Rs.2,500</p></article>
+    <article class="card" data-cat="birthday"><img src="chocolate.jpg" alt="Chocolate cake"><h3>Chocolate Cake</h3><p>From Rs.2,800</p></article>
+    <article class="card" data-cat="wedding"><img src="wedding.jpg" alt="Wedding cake"><h3>Wedding Cake</h3><p>From Rs.12,000</p></article>
+    <article class="card" data-cat="other"><img src="brownie.jpg" alt="Brownie"><h3>Brownie</h3><p>Rs.50 per 100g</p></article>
+    <article class="card" data-cat="other"><img src="cupcake.jpg" alt="Cupcake"><h3>Cupcake</h3><p>Rs.150 each</p></article>
+  </div>
+</section>
+
+<section id="prices">
+  <h2>Price list</h2>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th>Item</th><th>Category</th><th>Price</th></tr></thead>
+      <tbody>
+        <tr><td>Brownie 100g</td><td>Brownies</td><td>Rs.50</td></tr>
+        <tr><td>Cupcake</td><td>Bakery</td><td>Rs.150</td></tr>
+        <tr><td>Birthday cake 1kg</td><td>Birthday</td><td>Rs.2,500</td></tr>
+        <tr><td>Chocolate cake 1kg</td><td>Birthday</td><td>Rs.2,800</td></tr>
+        <tr><td>Wedding cake 3kg</td><td>Wedding</td><td>Rs.12,000</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section id="order" class="two">
+  <div class="box">
+    <h2>How to order</h2>
+    <ol>
+      <li>Pick your cake and size.</li>
+      <li>Message us on WhatsApp before 4pm.</li>
+      <li>We deliver the same day.</li>
+    </ol>
+  </div>
+  <div class="box navy">
+    <h2>Why Tasty Cakes</h2>
+    <ul>
+      <li>Fresh baked every day</li>
+      <li>Custom designs and messages</li>
+      <li>Clear prices, no surprises</li>
+    </ul>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Order or ask us anything</h2>
+  <p class="msg" id="orderMsg"></p>
+  <div class="links">
+    <a href="https://wa.me/94705633565" target="_blank" rel="noopener">WhatsApp</a>
+    <a href="https://github.com/senuri-shashikala" target="_blank" rel="noopener">Facebook</a>
+    <a href="https://www.linkedin.com/in/senuri-shashikala" target="_blank" rel="noopener">Instagram</a>
+    <a href="https://mail.google.com/mail/?view=cm&to=senurishashikala355@gmail.com&su=Cake%20order" target="_blank" rel="noopener">TikTok</a>
+    <a href="https://mail.google.com/mail/?view=cm&to=senurishashikala607@gmail.com&su=Cake%20order" target="_blank" rel="noopener">Email</a>
+  </div>
+</section>
+
+<footer>© <span id="year">2026</span> Tasty Cakes Sri Lanka (sample project)</footer>
+<script src="script.js"></script>
+</body>
+</html>
